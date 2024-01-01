@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>DOB Calculator</title>
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <h1>DOB Calculator</h1>
+    </div>
+  </nav>
+
+  <div class="container">
+    <form id="dob-form">
+      <label for="dob">Enter your date of birth</label>
+      <input type="date" id="dob" required>
+      <button type="button" onclick="calculateAge()">Calculate Age</button>
+      <p id="age-message"></p>
+    </form>
+  </div>
+
+  <script src="dob.js"></script>
+</body>
+</html>
